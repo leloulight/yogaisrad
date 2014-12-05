@@ -8,7 +8,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "padmasana",
       "pronunciation" => "pod-MAHS-anna",
-      "meaning" => "padma = lotus",
+      "meaning" => ["padma = lotus"],
     },
     "benefits" => [
       "Calms the brain",
@@ -30,7 +30,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "urdhva dhanurasana",
       "pronunciation" => "OORD-vah don-your-AHS-anna",
-      "meaning" => "urdhva = upward, dhan = bow",
+      "meaning" => ["urdhva = upward", "dhan = bow"],
     },
     "benefits" => [
       "Stretches the chest and lungs",
@@ -53,7 +53,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "trikonasana",
       "pronunciation" => "trik-cone-AHS-anna",
-      "meaning" => "trikona = three angle, triangle"
+      "meaning" => ["trikona = three angle, triangle"]
     },
     "benefits" => [
       "Stretches and strengthens the thighs, knees, and ankles",
@@ -78,7 +78,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "dhanurasana",
       "pronunciation" => "don-your-AHS-anna",
-      "meaning" => "dhanu = bow"
+      "meaning" => ["dhanu = bow"]
       },
     "benefits" => [
       "Stretches the entire front of the body, ankles, thighs and groins, abdomen and chest, and throat, and deep hip flexors (psoas)",
@@ -99,7 +99,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "balasana",
       "pronunciation" => "bah-LAHS-anna",
-      "meaning" => "bala = child"
+      "meaning" => ["bala = child"]
       },
     "benefits" => [
       "Gently stretches the hips, thighs, and ankles",
@@ -120,7 +120,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "dandasana",
       "pronunciation" => "don-DAHS-anna",
-      "meaning" => "danda = rod, staff"
+      "meaning" => ["danda = rod, staff"]
       },
     "benefits" => [
       "Strengthens the back muscles",
@@ -139,10 +139,10 @@ def yoga_poses
     "sanskrit" => {
       "word" => "natarajasana",
       "pronunciation" => "not-ah-raj-AHS-anna",
-      "meaning" = {
+      "meaning" => [
         "nata = actor, dancer, mime",
         "raja = king"
-      },
+      ],
     },
     "benefits" => [
       "Stretches the shoulders and chest",
@@ -165,7 +165,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "halasana",
       "pronunciation" => "hah-LAHS-anna",
-      "meaning" => "hala = plow"
+      "meaning" => ["hala = plow"]
       },
     "benefits" => [
       "Calms the brain",
@@ -187,7 +187,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "garudasana",
       "pronunciation" => "gah-rue-DAHS-anna",
-      "meaning" => "Garuda = the mythic “king of the birds,” the vehicle of Vishnu."
+      "meaning" => ["Garuda = the mythic king of the birds, the vehicle of Vishnu."]
       },
     "benefits" => [
       "Strengthens and stretches the ankles and calves",
@@ -209,7 +209,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "vasisthasana",
       "pronunciation" => "vah-sish-TAHS-anna",
-      "meaning" => "Vasistha = literally means 'most excellent, best, richest.' Vasistha is the name of several well-known sages in the yoga tradition."
+      "meaning" => ["Vasistha = literally means 'most excellent, best, richest.' Vasistha is the name of several well-known sages in the yoga tradition."]
       },
     "benefits" => [
       "Strengthens the arms, belly, and legs",
@@ -231,7 +231,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "bhujangasana",
       "pronunciation" => "boo-jang-GAHS-anna",
-      "meaning" => "bhujanga = serpent, snake"
+      "meaning" => ["bhujanga = serpent, snake"]
       },
     "benefits" => [
       "Strengthens the spine",
@@ -257,7 +257,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "vrikshasana",
       "pronunciation" => "vrik-SHAHS-anna",
-      "meaning" => "vrksa = tree"
+      "meaning" => ["vrksa = tree"]
       },
     "benefits" => [
       "Strengthens thighs, calves, ankles, and spine",
@@ -278,7 +278,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "savasana",
       "pronunciation" => "shah-VAHS-anna",
-      "meaning" => "sava = corpse"
+      "meaning" => ["sava = corpse"]
       },
     "benefits" => [
       "Calms the brain and helps relieve stress and mild depression",
@@ -298,7 +298,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "ustrasana",
       "pronunciation" => "oosh-TRAHS-anna",
-      "meaning" => "ustra = camel"
+      "meaning" => ["ustra = camel"]
       },
     "benefits" => [
       "Stretches the entire front of the body, the ankles, thighs and groins, abdomen and chest, and throat",
@@ -320,7 +320,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "utkatasana",
       "pronunciation" => "OOT-kah-TAHS-anna",
-      "meaning" => "utkata = powerful, fierce"
+      "meaning" => ["utkata = powerful, fierce"]
       },
     "benefits" => [
       "Strengthens the ankles, thighs, calves, and spine",
@@ -340,7 +340,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "virabhadrasana I",
       "pronunciation" => "veer-ah-bah-DRAHS-anna",
-      "meaning" => "Virabhadra = the name of a fierce warrior, an incarnation of Shiva, described as having a thousand heads, a thousand eyes, and a thousand feet, and wearing a tiger's skin."
+      "meaning" => ["Virabhadra = the name of a fierce warrior, an incarnation of Shiva, described as having a thousand heads, a thousand eyes, and a thousand feet, and wearing a tiger's skin."]
       },
     "benefits" => [
       "Stretches the chest and lungs, shoulders and neck, belly, groins (psoas)",
@@ -360,7 +360,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "virabhadrasana II",
       "pronunciation" => "veer-ah-bah-DRAHS-anna",
-      "meaning" => "Virabhadra= the name of a fierce warrior, an incarnation of Shiva, described as having a thousand heads, a thousand eyes, and a thousand feet, and wearing a tiger's skin."
+      "meaning" => ["Virabhadra= the name of a fierce warrior, an incarnation of Shiva, described as having a thousand heads, a thousand eyes, and a thousand feet, and wearing a tiger's skin."]
       },
     "benefits" => [
       "Strengthens and stretches the legs and ankles",
@@ -383,7 +383,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "virabhadrasana III",
       "pronunciation" => "veer-ah-bah-DRAHS-anna",
-      "meaning" => "Virabhadra = the name of a fierce warrior, an incarnation of Shiva, described as having a thousand heads, a thousand eyes, and a thousand feet, and wearing a tiger's skin."
+      "meaning" => ["Virabhadra = the name of a fierce warrior, an incarnation of Shiva, described as having a thousand heads, a thousand eyes, and a thousand feet, and wearing a tiger's skin."]
       },
     "benefits" => [
       "Strengthens the ankles and legs",
@@ -405,11 +405,11 @@ def yoga_poses
     "sanskrit" => {
       "word" => "adho mukha svanasana",
       "pronunciation" => "AH-doh MOO-kah shvah-NAHS-anna",
-      "meaning" => {
+      "meaning" => [
         "adho = downward",
         "mukha = face",
         "svana = dog"
-        },
+        ],
       },
     "benefits" => [
       "Calms the brain and helps relieve stress and mild depression",
@@ -437,7 +437,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "ananda balasana",
       "pronunciation" => "ah-NAHN-dah bah-LAHS-ahna",
-      "meaning" => "bala = child"
+      "meaning" => ["bala = child"]
       },
     "benefits" => [
       "Gently stretches the inner groins and the back spine",
@@ -455,11 +455,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "paschimottanasana",
       "pronunciation" => "POSH-ee-moh-tan-AHS-anna",
-      "meaning" => {
-        "paschimottana = intense stretch of the west",
-        "pashima = west",
-        "uttana = intense stretch"
-        },
+      "meaning" => ["paschimottana = intense stretch of the west", "pashima = west", "uttana = intense stretch"]
       },
     "benefits" => [
       "Calms the brain and helps relieve stress and mild depression",
@@ -484,10 +480,10 @@ def yoga_poses
     "sanskrit" => {
       "word" => "ardha chandrasana",
       "pronunciation" => "are-dah chan-DRAHS-anna",
-      "meaning" => {
+      "meaning" => [
         "ardha = half",
         "candra = glittering, shining, having the brilliancy or hue of light (said of the gods); usually translated as “moon”"
-        },
+        ],
       },
     "benefits" => [
       "Strengthens the abdomen, ankles, thighs, buttocks, and spine",
@@ -509,7 +505,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "matsyasana",
       "pronunciation" => "mot-see-AHS-anna",
-      "meaning" => "matsya = fish"
+      "meaning" => ["matsya = fish"]
       },
     "benefits" => [
       "A traditional text suggests that Matsyasana is the destroyer of all diseases.",
@@ -532,7 +528,7 @@ def yoga_poses
     "sanskrit" => {
       "word" => "tadasana",
       "pronunciation" => "tah-DAHS-anna",
-      "meaning" => "tada = mountain"
+      "meaning" => ["tada = mountain"]
       },
     "benefits" => [
       "Improves posture",
@@ -553,10 +549,11 @@ def yoga_poses
     "sanskrit" => {
       "word" => "paripurna navasana",
       "pronunciation" => "par-ee-POOR-nah nah-VAHS-anna",
-      "meaning" => {
+      "meaning" => [
         "paripurna = full, entire, complete",
         "nava = boat"
-      },
+      ]
+    },
     "benefits" => [
       "Strengthens the abdomen, hip flexors, and spine",
       "Stimulates the kidneys, thyroid and prostate glands, and intestines",
@@ -584,4 +581,5 @@ end
 #   YogaPose.create(yoga_pose)
 # end
 
-File.write('yoga_poses.json', JSON.pretty_generate(yoga_poses))
+f = File.new('yoga_poses.json', 'w')
+f.write(yoga_poses.to_json)
