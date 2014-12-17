@@ -5,16 +5,80 @@
 	<title>Yoga</title>
 	<link rel="stylesheet" href="/stylesheets/styles.css">
 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
 	<script src='/javascripts/lib/jquery.js'></script>
 	<script src='/javascripts/lib/underscore.js'></script>
 	<script src='/javascripts/lib/backbone.js'></script>
 
-	<script src='/javascripts/models/Pose.js'></script>
-	<script src='/javascripts/collections/PoseList.js'></script>
-	<script src='/javascripts/views/PoseView.js'></script>
-	<script src='/javascripts/view/PoseListView.js'></script>
 
-</head>
+	<script type="text/template" id="pose-list-template">
+  <%% collection.each(function(pose){  %>
+    <li class="pose <%%= pose.get("name") %>"><a href="#pose/<%%= encodeURIComponent(pose.get("name")) %>"><%%= pose.get('name') %></a></li>
+  <%% }) %>
+	</script>
+
+
+
+	<script id='pose-template' type="template">
+	 
+	 	<div class='thepose'>
+	 		<%%= name %>
+	 	</div>
+
+	 	<div class='sanskrit'>
+	 		<%%= sanskrit.word %> <br>
+	 		<%%= sanskrit.pronunciation %> <br>
+	 		<%%= sanskrit.meaning %> <br>
+	 	</div>
+
+	 	<div id='template-div'>
+	 		
+	 		<h1 class="header" id='category-toggle'>Category</h1>
+		 	<div class='toggle-div thecategory' style="display:none">
+		 		<%%= category %>
+		 	</div>
+
+			<h1 class="header" id='description-toggle'>Description</h1>
+		 	<div class='toggle-div thedescription' style="display:none">
+		 		<%%= description %>
+		 	</div>
+
+		 	<h1 class="header" id='tip-toggle'>Beginner Tip</h1>
+		 	<div class='toggle-div thetip' style="display:none">
+		 		<%%= tip %>
+		 	</div>
+
+		 	<h1 class="header" id='benefits-toggle'>Benefits</h1>
+		 	<div class='toggle-div thebenefits' style="display:none">
+		 		<%%= benefits %>
+		 	</div>
+
+		 </div>
+
+
+		 <img src='<%%= img_url %>'> 
+
+
+		</script>
+
+
+
+	<script src='/javascripts/models/Pose.js'></script>
+	<script src='/javascripts/collections/PoseCollection.js'></script>
+	<script src='/javascripts/views/PoseListView.js'></script>
+	<script src='/javascripts/views/PoseView.js'></script>
+	<script src='/javascripts/main.js'></script>
+
+</head>	
 <body>
 
 	<%= yield %>
