@@ -27,7 +27,10 @@ var PoseRouter = Backbone.Router.extend({
 		chakraCollection.fetch().done(function(){
 			var chakra = chakraCollection.where({name: chakra})[0];
 			var chakraView = new ChakraView({model: chakra});
-			$('chakra-container').html(chakraView.render().$el);
+			// $('chakra-container').html(chakraView.render().$el);
+			// $('body').on('click', '.chakra-header', function(){
+			// 	$(this).next()slideToggle();
+			// });
 		});
 	}
 
