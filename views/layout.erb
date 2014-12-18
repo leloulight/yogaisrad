@@ -93,13 +93,76 @@
 		 	</ul>
 		 	</div>
 
-		 </div>
-
+		</div>
 
 		 <img src='<%%= img_url %>'> 
-
-
 		</script>
+
+	<script id='chakra-template' type="template">
+	 
+	 	<div class='chakra-details'>
+	 		<h1 style="color:<%%= color %>">Chakra: <%%= chakra %></h1>
+	 		<h2>Sanskrit:<%%= chakrasanskrit %></h2> 
+	 		<h3>Located:<%%= location %></h3>
+	 		<h3>Element:<%%= element %></h3>
+	 		<h3>Bija Mantra:<%%= bija_mantra %></h3>
+	 		<h3>Energy Body:<%%= energy_body %></h3>
+	 		<h3>Physical Imbalance:<%%= physical_imbalance %></h3>
+
+	 	</div>
+
+
+	 	<div id='chakra-div'>
+	 		
+	 		<h1 class="chakra-header" id='gem-toggle'>Gems</h1>
+		 	<div class='toggle-div gem' style="display:none">
+		 		<ul>
+		 			<%% for (var i = 0; i < gem.length; i++){ %>
+		 				<li>
+		 					<%%= gem[i] %>
+		 				</li>
+		 			<%% } %>
+		 		</ul>
+		 	</div>
+
+	 		<h1 class="chakra-header" id='foods-toggle'>Foods</h1>
+		 	<div class='toggle-div foods' style="display:none">
+		 		<ul>
+		 			<%% for (var i = 0; i < foods.length; i++){ %>
+		 				<li>
+		 					<%%= foods[i] %>
+		 				</li>
+		 			<%% } %>
+		 		</ul>
+		 	</div>
+
+	 		<h1 class="chakra-header" id='essential_oils-toggle'>Essential Oils</h1>
+		 	<div class='toggle-div essential_oils' style="display:none">
+		 		<ul>
+		 			<%% for (var i = 0; i < essential_oils.length; i++){ %>
+		 				<li>
+		 					<%%= essential_oils[i] %>
+		 				</li>
+		 			<%% } %>
+		 		</ul>
+		 	</div>
+
+	 		<h1 class="chakra-header" id='healing_exercises-toggle'>Exercises</h1>
+		 	<div class='toggle-div healing_exercises' style="display:none">
+		 		<ul>
+		 			<%% for (var i = 0; i < healing_exercises.length; i++){ %>
+		 				<li>
+		 					<%%= healing_exercises[i] %>
+		 				</li>
+		 			<%% } %>
+		 		</ul>
+		 	</div>
+
+		 </div>
+
+		 <img src='<%%= image_url %>'> 
+
+	</script>
 
 
 
