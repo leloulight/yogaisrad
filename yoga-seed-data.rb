@@ -21,6 +21,8 @@ def yoga_poses
     "category" => [
       "seated"
     ],
+    "chakra" => "Heart Chakra",
+    "color" => "green",
     "tip" => "During the cradle warm-up the outer ankle is often overstretched. Push through the inner edge of the foot against the upper arm to equalize the two ankles. Then when you bring the foot across into the opposite groin, see that you maintain this even stretch of the inner and outer ankles.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/lotuspose.jpg",
   },
@@ -44,6 +46,8 @@ def yoga_poses
       "chest openers",
       "yoga for strength"
     ],
+    "chakra" => "Root Chakra",
+    "color" => "red",
     "tip" => "The knees and feet tend to splay as you lift into this pose, which compresses the lower back. In the beginning position, loop and secure a strap around your thighs, just above the knees, to hold the thighs at hip width and parallel to each other. To keep the feet from turning out, place a block between them, with the bases of the big toes pressing the ends of the block. As you go up, press the feet into the block.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/258_HP_11_fnl_450.jpg",
   },
@@ -69,6 +73,8 @@ def yoga_poses
       "standing poses",
       "yoga for strength"
     ],
+    "chakra" => "Sacral Chakra",
+    "color" => "orange",
     "tip" => "Brace your back heel or the back of your torso against a wall if you feel unsteady in the pose.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/266_hp_side16_4501.jpg",
   },
@@ -90,6 +96,8 @@ def yoga_poses
       "backbends",
       "chest openers"
     ],
+    "chakra" => "Solar Plexus Chakra",
+    "color" => "yellow",
     "tip" => "Sometimes beginners find it difficult to lift their thighs away from the floor. You can give your legs a little upward boost by lying with your thighs supported on a rolled-up blanket.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/HP_260_10_FNL_4501.jpg",
   },
@@ -111,6 +119,8 @@ def yoga_poses
       "hip openers",
       "restorative poses"
     ],
+    "chakra" => "Brow Chakra",
+    "color" => "indego",
     "tip" => "We usually don't breathe consciously and fully into the back of the torso. Balasana provides us with an excellent opportunity to do just that. Imagine that each inhalation is 'doming' the back torso toward the ceiling, lengthening and widening the spine. Then with each exhalation release the torso a little more deeply into the fold.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/266_hp_side06_4501.jpg",
   },
@@ -130,6 +140,8 @@ def yoga_poses
     "category" => [
       "seated"
     ],
+    "chakra" => "",
+    "color" => "",
     "tip" => "Lay one to three 10-pound sandbags across the tops of your thighs at the hip crease to help ground your thighs.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/MC_211_OPEN_N_1.jpg",
   },
@@ -156,6 +168,8 @@ def yoga_poses
       "chest openers",
       "standing poses"
     ],
+    "chakra" => "Heart Chakra",
+    "color" => "green",
     "tip" => "Many beginners, when lifting the leg, tend to cramp in the back of the thigh. Be sure to keep the ankle of the raised foot flexed; that is, draw the top of the foot toward the shin.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/lordofthedance.jpg",
   },
@@ -178,6 +192,8 @@ def yoga_poses
     "category" => [
       "inversions"
     ],
+    "chakra" => "Throat Chakra",
+    "color" => "blue",
     "tip" => "In this pose, there's a tendency to overstretch the neck by pulling the shoulders too far away from the ears. While the tops of the shoulders should push down into the support, they should be lifted slightly toward the ears to keep the back of the neck and throat soft. Open the sternum by firming the shoulder blades against the back.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/plowpose.jpg",
   },
@@ -200,6 +216,8 @@ def yoga_poses
       "hip openers",
       "standing poses"
     ],
+    "chakra" => "Heart Chakra",
+    "color" => "green",
     "tip" => "Beginners often find it difficult to wrap the arms around until the palms touch. Stretch your arms straight forward, parallel to the floor, while holding onto the ends of a strap. Follow the rest of the instructions stated in step 2 above and keep the strap taut between your hands. Beginners also find it difficult to hook the raised-leg foot behind the standing-leg calf, and then balance on the standing foot. As a short-term option cross the legs but, instead of hooking the raised foot and calf, press the big toe of the raised-leg foot against the floor to help maintain your balance.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/pract-well_trail_268_04_Eagle.jpg",
   },
@@ -222,6 +240,8 @@ def yoga_poses
       "core yoga",
       "yoga for strength"
     ],
+    "chakra" => "",
+    "color" => "",
     "tip" => "Beginners often have a difficult time sustaining this pose, even with the soles pressed to a wall. Perform Adho Mukha Svanasana with your heels up on a wall. Measure the distance between your right foot and right hand, then step the foot halfway to the hand. Keep the right foot on the floor for support and turn the toes out to the right. Then shift onto the outside of the left foot, press the sole against the wall, and turn onto the left hand as described above. In this position the bent leg will provide some extra support. Step back to Adho Mukha Svanasana at the end of your stay, then repeat to the other side.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/SidePlankPose.jpg",
   },
@@ -248,6 +268,8 @@ def yoga_poses
       "backbends",
       "chest openers"
     ],
+    "chakra" => "Heart Chakra",
+    "color" => "green",
     "tip" => "Don't overdo the backbend. To find the height at which you can work comfortably and avoid straining your back, take your hands off the floor for a moment, so that the height you find will be through extension.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/248_hp_sit_04_450.jpg",
   },
@@ -269,6 +291,8 @@ def yoga_poses
       "balancing",
       "standing poses"
     ],
+    "chakra" => "Root Chakra",
+    "color" => "red",
     "tip" => "If your raised foot tends to slide down the inner standing thigh, put a folded sticky mat between the raised-foot sole and the standing inner thigh.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/yogapedia_270_01_450x450.jpg",
   },
@@ -289,6 +313,8 @@ def yoga_poses
     "category" => [
       "restorative poses"
     ],
+    "chakra" => "Crown Chakra",
+    "color" => "violet",
     "tip" => "Often it's difficult to release the heads of the thigh bones and soften the groins in this pose. This creates tension throughout the body and restricts the breath. Take two 10-pound sand bags and lay one across each top thigh, parallel to the crease of the groin. Then imagine that the heads of the thigh bones are sinking away from the weight, down into the floor.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/CorpsePoseYoga.jpg",
   },
@@ -311,6 +337,8 @@ def yoga_poses
       "backbends",
       "chest openers"
     ],
+    "chakra" => "Heart Chakra",
+    "color" => "green",
     "tip" => "Beginners very often aren't able to touch their hands to their feet without straining their back or neck. First, try to turn your toes under and elevate your heels. If this doesn't work, the next thing to do is to rest each hand on a block. Position the blocks just outside each heel, and stand them at their highest height (usually about 9 inches). If you're still having difficulty, get a chair. Kneel for the pose with your back to the chair, with your calves and feet below the seat and the front edge of the seat touching your buttocks. Then lean back and bring your hands to the sides of the seat or high up on the front chair legs.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/258_HP_10_fnl_4501.jpg",
   },
@@ -331,6 +359,8 @@ def yoga_poses
     "category" => [
       "standing poses"
     ],
+    "chakra" => "Root Chakra",
+    "color" => "red",
     "tip" => "To help you stay in this pose, perform it near a wall. Stand with your back to the wall, a few inches away from the wall. Adjust your position relative to the wall so that when you bend into the position, your tailbone just touches and is supported by the wall.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/HP_269_FNL_81135.jpg",
   },
@@ -351,6 +381,8 @@ def yoga_poses
       "standing poses",
       "yoga for strength"
     ],
+    "chakra" => "Crown Chakra",
+    "color" => "violet",
     "tip" => "When the front knee bends into the pose, beginners have a tendency to tip the pelvis forward, which duck-tails the coccyx and compresses the lower back. As you perform step 2 in the main description above, be sure to lift the pubis toward the navel and lengthen the tail toward the floor. Then as you bend the knee, continue to lift and descend these two bones, keeping the top rim of the pelvis relatively parallel to the floor.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/HP_260_03_FNL_450.jpg",
   },
@@ -374,6 +406,8 @@ def yoga_poses
       "standing poses",
       "yoga for strength"
     ],
+    "chakra" => "Brow Chakra",
+    "color" => "indego",
     "tip" => "When you bend the left knee to a right angle, bend it very quickly with an expressive exhalation, and aim the inside of the left knee toward the little-toe side of the left foot.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/245_hp_01_450.jpg",
   },
@@ -396,6 +430,8 @@ def yoga_poses
       "standing poses",
       "yoga for strength"
     ],
+    "chakra" => "",
+    "color" => "",
     "tip" => "When you straighten the front knee by pushing the head of the thighbone back, imagine that the same-leg calf is resisting forward against the shin. These two opposing movements prevent the knee from locking or hyperextending and further stabilize the position.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/246_hp_13_450.jpg",
   },
@@ -428,6 +464,8 @@ def yoga_poses
       "standing poses",
       "yoga for strength"
     ],
+    "chakra" => "",
+    "color" => "",
     "tip" => "If you have difficulty releasing and opening your shoulders in this pose, raise your hands off the floor on a pair of blocks or the seat of a metal folding chair.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/266_hp_side12_450.jpg",
   },
@@ -446,6 +484,8 @@ def yoga_poses
     "category" => [
       "core yoga"
     ],
+    "chakra" => "",
+    "color" => "",
     "tip" => "If you can't easily hold your feet with your hands, try holding each foot with a yoga strap looped around the middle arch.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/249_hp_groove_16_450.jpg",
   },
@@ -471,6 +511,8 @@ def yoga_poses
       "forward bends",
       "seated"
     ],
+    "chakra" => "Sacral Chakra",
+    "color" => "orange",
     "tip" => "Never force yourself into a forward bend, especially when sitting on the floor. Coming forward, as soon as you feel the space between your pubis and navel shortening, stop, lift up slightly, and lengthen again. Often, because of tightness in the backs of the legs, a beginner's forward bend doesn't go very far forward and might look more like sitting up straight.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/257_HP_12_fnl_4501.jpg",
   },
@@ -496,6 +538,8 @@ def yoga_poses
       "balancing",
       "standing poses"
     ],
+    "chakra" => "",
+    "color" => "",
     "tip" => "Many beginning students have difficulty touching the floor with their lower hand, even when resting it on the fingertips. These students should support their hand on a block. Start with the block at its highest height and, if your balance is steady and comfortable, lower it down first to its middle height, then finally if possible to its lowest height.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/halfmoonpose.jpg",
   },
@@ -519,6 +563,8 @@ def yoga_poses
       "backbends",
       "chest openers"
     ],
+    "chakra" => "Throat Chakra",
+    "color" => "blue",
     "tip" => "Beginners sometimes strain their neck in this pose. If you feel any discomfort in your neck or throat, either lower your chest slightly toward the floor, or put a thickly folded blanket under the back of your head.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/fishpose.jpg",
   },
@@ -540,6 +586,8 @@ def yoga_poses
     "category" => [
       "standing poses"
     ],
+    "chakra" => "",
+    "color" => "",
     "tip" => "You can improve your balance in this pose by standing with your inner feet slightly apart, anywhere from 3 to 5 inches.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/pract-well_trail_268_02_FNLTadasana.jpg",
   },
@@ -565,6 +613,8 @@ def yoga_poses
       "seated",
       "yoga for strength"
     ],
+    "chakra" => "Solar Plexus Chakra",
+    "color" => "yellow",
     "tip" => "You can practice a preparation for this pose periodically throughout your day without even leaving your chair. Sit on the front edge of a seat with your knees at right angles. Grab onto the sides of the seat with your hands and lean slightly forward. Firm your arms and lift your buttocks slightly off the seat, then raise your heels slightly off the floor (but not the balls of your feet). Let the heads of your thigh bones sink into the pull of gravity and push the top of your sternum forward and up.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/boatpose.jpg",
   },

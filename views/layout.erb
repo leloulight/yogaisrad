@@ -21,9 +21,27 @@
 
 
 	<script type="text/template" id="pose-list-template">
-  <%% collection.each(function(pose){  %>
-    <li class="pose <%%= pose.get("name") %>"><a href="#pose/<%%= encodeURIComponent(pose.get("name")) %>"><%%= pose.get('name') %></a></li>
+	<table>
+  <%% collection.each(function(pose, index){  %>
+  	<%% if (index % 5 == 0) { %>
+  		<tr>
+  	<%% } %>
+  	<td>
+    	<div class="pose <%%= pose.get("name") %>">
+    	<img class="small-img" src="<%%= pose.get("img_url")%>">
+	    <a href="#pose/<%%= encodeURIComponent(pose.get("name")) %>">
+	    	<%%= pose.get('name') %>
+	  	</a>
+  		</div>
+  	</td>
+  	<%% if (index % 5 == 4) { %>
+  		<tr>
+  	<%% } %>
   <%% }) %>
+  </table>
+  // <%% collection.each(function(pose){  %>
+  //   <li class="pose <%%= pose.get("name") %>"><a href="#pose/<%%= encodeURIComponent(pose.get("name")) %>"><%%= pose.get('name') %></a></li>
+  // <%% }) %>
 	</script>
 
 

@@ -5,6 +5,7 @@ body {
 .pose {
 	text-align: center;
 	border: 3px solid black;
+  margin: 5px;
 }
 
 li.pose {
@@ -138,6 +139,11 @@ li.pose {
 /*	text-align: right;*/
 	width: 275px;
 	right: 50px;
+}
+
+.small-img {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 /*#pic-div {
