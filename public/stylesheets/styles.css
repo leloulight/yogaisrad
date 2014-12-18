@@ -72,6 +72,12 @@ li.pose {
 	border: 5px solid black;
 }
 
+.thepose .chakra-circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
 .sanskrit {
 	text-align: center;
 }
@@ -150,6 +156,33 @@ li.pose {
 	float: left;
 	margin-left: 65px;
 }*/
+.red {
+  background-color: red; 
+}
+
+.orange {
+  background-color: orange; 
+}
+
+.yellow {
+  background-color: yellow; 
+}
+
+.green {
+  background-color: green; 
+}
+
+.blue {
+  background-color: blue; 
+}
+
+.indigo {
+  background-color: purple; 
+}
+
+.violet {
+  background-color: pink; 
+}
 
 img src {
 
