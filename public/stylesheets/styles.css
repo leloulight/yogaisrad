@@ -8,63 +8,6 @@ body {
   margin: 5px;
 }
 
-li.pose {
-  cursor: pointer;
-  font-size: 1.5em;
-  opacity: 0.75;
-  margin: 0 auto;
-  list-style: none;
-  text-align: center;
-  width: 50%;
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}
-
-.header {
-  height: 10em;
-  .om {
-    background: url('http://www.breakoutofthebox.com/OmSymbol.jpg') no-repeat;
-    /*background-size: contain;
-    height: 100%;
-    margin-left: 1.6em;
-    width: 16em;*/
-  }
-}
-
-.nav {
-  position: relative;
-  top: -2em;
-  li {
-    display: inline-block;
-    font-size: 1em;
-    padding-left: 4.5em;
-  }
-  a {
-    color: white;
-    display:inline-block;
-    text-decoration: none;
-  }
-  a:hover {
-    color: darken(white, 20)
-  }
-}
-
-.content-wrapper {
-  margin: 0 auto;
-  margin-top: -3em;
-  width: 650px;
-  h1 {
-    text-align: center;
-  }
-  img {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: -2em;
-  }
-}
-
 .thepose {
 	text-align: center;
 	font-size: 36px;
@@ -124,25 +67,21 @@ li.pose {
 }
 
 .thecategory {
-/*	text-align: right;*/
 	width: 275px;
 	right: 50px;
 }
 
 .thetip {
-/*	text-align: right;*/
-	width: 275px;
-	right: 50px;
+  width: 275px;
+  right: 50px;
 }
 
 .thedescription {
-/*	text-align: right;*/
 	width: 275px;
 	right: 50px;
 }
 
 .thebenefits {
-/*	text-align: right;*/
 	width: 275px;
 	right: 50px;
 }
@@ -152,10 +91,51 @@ li.pose {
   max-height: 100px;
 }
 
+#chakra-div {
+  display: inline-block;
+}
+
+#gem-toggle {
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;
+}
+
+#foods-toggle {
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;
+}
+
+#essential_oils-toggle {
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;  
+}
+
+#healing_exercises-toggle {
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;  
+}
+
 /*#pic-div {
 	float: left;
 	margin-left: 65px;
 }*/
+
 .red {
   background-color: red; 
 }
