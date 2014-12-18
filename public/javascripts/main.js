@@ -1,15 +1,22 @@
 var PoseRouter = Backbone.Router.extend({
 	routes:{
-		""  							:  "index",
-		"pose/:name"			:  "pose",
-		"chakra/:chakra"	:  "chakra"
+		""  									:  "index",
+		"pose/:name"					:  "pose",
+		"chakra/:chakraName"	:  "chakra"
 	},
 
 	index: function(){
+		
+		chakraCollection.fetch().done(function(){
+			var chakraListView = new ChakraListView({ collection: chakraCollection });
+			$('.chakra-container').html(chakraListView.render().$el);
+		});
+
 		poseCollection.fetch().done(function(){
 			var poseListView = new PoseListView({ collection: poseCollection });
 			$('.pose-container').html(poseListView.render().$el);
 		});
+
 	},
 
 	pose: function(name){
@@ -22,15 +29,16 @@ var PoseRouter = Backbone.Router.extend({
 		});
 	},
 
-	chakra: function(chakra) {
-		console.log("ldkfj");
+	chakra: function(chakraName) {
+		console.log("chakraName", chakraName);
 		chakraCollection.fetch().done(function(){
-			var chakra = chakraCollection.where({name: chakra})[0];
+			var chakra = chakraCollection.where({chakra: chakraName})[0];
 			var chakraView = new ChakraView({model: chakra});
-			// $('chakra-container').html(chakraView.render().$el);
-			// $('body').on('click', '.chakra-header', function(){
-			// 	$(this).next()slideToggle();
-			// });
+			$('.pose-container').empty();
+			$('chakra-container').html(chakraView.render().$el);
+			$('body').on('click', '.chakra-header', function(e){
+				$(this).next().slideToggle();
+			});
 		});
 	}
 

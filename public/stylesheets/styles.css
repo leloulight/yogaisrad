@@ -1,5 +1,26 @@
-body {
+/*body {
 	background-color: purple;
+}*/
+
+/*body {
+  background-image: url('http://www.breakoutofthebox.com/OmSymbol.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment:fixed;
+  opacity: 0.2;
+  z-index: -1;
+}*/
+
+
+.chakra {
+  display: inline-block;
+  width: 7.5em;
+  margin-right: 20px;
+  margin-left: 45px;
+}
+
+.title {
+  text-align: center;
 }
 
 .pose {
@@ -91,8 +112,14 @@ body {
   max-height: 100px;
 }
 
-#chakra-div {
+.smaller-img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.chakra-div {
   display: inline-block;
+  right: 50px;
 }
 
 #gem-toggle {
@@ -131,6 +158,25 @@ body {
   line-height: -20px;  
 }
 
+.gem {
+  width: 275px;
+  right: 50px;
+}
+
+.foods {
+  width: 275px;
+  right: 50px;
+}
+
+.essential_oils {
+  width: 275px;
+  right: 50px;
+}
+
+.healing_exercises {
+  width: 275px;
+  right: 50px;
+}
 /*#pic-div {
 	float: left;
 	margin-left: 65px;
@@ -164,6 +210,10 @@ body {
   background-color: pink; 
 }
 
+/*.location{
+  font-size: 18px;
+  font: italic;
+}*/
 img src {
 
 }

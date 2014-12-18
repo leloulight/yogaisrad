@@ -5,21 +5,6 @@
 	<title>Yoga</title>
 	<link rel="stylesheet" href="/stylesheets/styles.css">
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-
-	<script src='/javascripts/lib/jquery.js'></script>
-	<script src='/javascripts/lib/underscore.js'></script>
-	<script src='/javascripts/lib/backbone.js'></script>
-
-
 	<script type="text/template" id="pose-list-template">
 	<table>
   <%% collection.each(function(pose, index){  %>
@@ -39,6 +24,18 @@
   	<%% } %>
   <%% }) %>
   </table>
+	</script>
+
+	<script type="text/template" id="chakra-list-template">
+  	<%% collection.each(function(chakra){  %>
+    	<div class="chakra <%%= chakra.get("chakra") %>">
+    	<img class="smaller-img" src="<%%= chakra.get("image_url")%>"> <br>
+	    <a href="#chakra/<%%= encodeURIComponent(chakra.get("chakra")) %>">
+	    	<%%= chakra.get('chakra') %>
+	  	</a>
+  		</div>
+  	<%% });  %>
+
 	</script>
 
 
@@ -100,6 +97,10 @@
 		 <img src='<%%= img_url %>'> 
 		</script>
 
+
+
+
+
 	<script id='chakra-template' type="template">
 	 
 	 	<div class='chakra-details'>
@@ -114,10 +115,11 @@
 	 	</div>
 
 		<img src='<%%= image_url %>'> 
-	 	<div id='chakra-div'>
+	 	
+	 	<div class='chakra-div'>
 	 		
 	 		<h1 class="chakra-header" id='gem-toggle'>Gems</h1>
-		 	<div class='toggle-div gem' style="display:none">
+		 	<div class='toggling gem' style="display:none">
 		 		<ul>
 		 			<%% for (var i = 0; i < gem.length; i++){ %>
 		 				<li>
@@ -128,7 +130,7 @@
 		 	</div>
 
 	 		<h1 class="chakra-header" id='foods-toggle'>Foods</h1>
-		 	<div class='toggle-div foods' style="display:none">
+		 	<div class='toggling foods' style="display:none">
 		 		<ul>
 		 			<%% for (var i = 0; i < foods.length; i++){ %>
 		 				<li>
@@ -139,7 +141,7 @@
 		 	</div>
 
 	 		<h1 class="chakra-header" id='essential_oils-toggle'>Essential Oils</h1>
-		 	<div class='toggle-div essential_oils' style="display:none">
+		 	<div class='toggling essential_oils' style="display:none">
 		 		<ul>
 		 			<%% for (var i = 0; i < essential_oils.length; i++){ %>
 		 				<li>
@@ -150,7 +152,7 @@
 		 	</div>
 
 	 		<h1 class="chakra-header" id='healing_exercises-toggle'>Exercises</h1>
-		 	<div class='toggle-div healing_exercises' style="display:none">
+		 	<div class='toggling healing_exercises' style="display:none">
 		 		<ul>
 		 			<%% for (var i = 0; i < healing_exercises.length; i++){ %>
 		 				<li>
@@ -163,6 +165,22 @@
 		 </div>
 
 	</script>
+
+
+	<script src='/javascripts/lib/jquery.js'></script>
+	<script src='/javascripts/lib/underscore.js'></script>
+	<script src='/javascripts/lib/backbone.js'></script>
+
+
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 
 
