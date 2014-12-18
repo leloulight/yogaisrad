@@ -1,7 +1,8 @@
 var PoseRouter = Backbone.Router.extend({
 	routes:{
-		""  						:  "index",
-		"pose/:name"		:  "pose"
+		""  							:  "index",
+		"pose/:name"			:  "pose",
+		"chakra/:chakra"	:  "chakra"
 	},
 
 	index: function(){
@@ -19,18 +20,28 @@ var PoseRouter = Backbone.Router.extend({
 		$('body').on('click', '.header', function(){
 			$(this).next().slideToggle();
 		});
+	},
 
+	chakra: function(chakra) {
+		console.log("ldkfj");
+		chakraCollection.fetch().done(function(){
+			var chakra = chakraCollection.where({name: chakra})[0];
+			var chakraView = new ChakraView({model: chakra});
+			$('chakra-container').html(chakraView.render().$el);
+		});
 	}
 
 });
 
 
 var poseCollection;
+var chakraCollection;
 var router;
 
 $(function(){
 
 	poseCollection = new PoseCollection();
+	chakraCollection = new ChakraCollection();
 	router = new PoseRouter();
 	Backbone.history.start();
 	
