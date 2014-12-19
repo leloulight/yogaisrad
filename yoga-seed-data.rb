@@ -96,8 +96,8 @@ def yoga_poses
       "backbends",
       "chest openers"
     ],
-    "chakra" => "Solar Plexus Chakra",
-    "color" => "yellow",
+    "chakra" => "Solar Chakra",
+    "color" => "gold",
     "tip" => "Sometimes beginners find it difficult to lift their thighs away from the floor. You can give your legs a little upward boost by lying with your thighs supported on a rolled-up blanket.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/HP_260_10_FNL_4501.jpg",
   },
@@ -120,7 +120,7 @@ def yoga_poses
       "restorative poses"
     ],
     "chakra" => "Brow Chakra",
-    "color" => "indego",
+    "color" => "mediumslateblue",
     "tip" => "We usually don't breathe consciously and fully into the back of the torso. Balasana provides us with an excellent opportunity to do just that. Imagine that each inhalation is 'doming' the back torso toward the ceiling, lengthening and widening the spine. Then with each exhalation release the torso a little more deeply into the fold.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/266_hp_side06_4501.jpg",
   },
@@ -193,7 +193,7 @@ def yoga_poses
       "inversions"
     ],
     "chakra" => "Throat Chakra",
-    "color" => "blue",
+    "color" => "dodgerblue",
     "tip" => "In this pose, there's a tendency to overstretch the neck by pulling the shoulders too far away from the ears. While the tops of the shoulders should push down into the support, they should be lifted slightly toward the ears to keep the back of the neck and throat soft. Open the sternum by firming the shoulder blades against the back.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/plowpose.jpg",
   },
@@ -314,7 +314,7 @@ def yoga_poses
       "restorative poses"
     ],
     "chakra" => "Crown Chakra",
-    "color" => "violet",
+    "color" => "darkmagenta",
     "tip" => "Often it's difficult to release the heads of the thigh bones and soften the groins in this pose. This creates tension throughout the body and restricts the breath. Take two 10-pound sand bags and lay one across each top thigh, parallel to the crease of the groin. Then imagine that the heads of the thigh bones are sinking away from the weight, down into the floor.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/CorpsePoseYoga.jpg",
   },
@@ -382,7 +382,7 @@ def yoga_poses
       "yoga for strength"
     ],
     "chakra" => "Crown Chakra",
-    "color" => "violet",
+    "color" => "darkmagenta",
     "tip" => "When the front knee bends into the pose, beginners have a tendency to tip the pelvis forward, which duck-tails the coccyx and compresses the lower back. As you perform step 2 in the main description above, be sure to lift the pubis toward the navel and lengthen the tail toward the floor. Then as you bend the knee, continue to lift and descend these two bones, keeping the top rim of the pelvis relatively parallel to the floor.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/HP_260_03_FNL_450.jpg",
   },
@@ -407,7 +407,7 @@ def yoga_poses
       "yoga for strength"
     ],
     "chakra" => "Brow Chakra",
-    "color" => "indego",
+    "color" => "mediumslateblue",
     "tip" => "When you bend the left knee to a right angle, bend it very quickly with an expressive exhalation, and aim the inside of the left knee toward the little-toe side of the left foot.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/245_hp_01_450.jpg",
   },
@@ -564,7 +564,7 @@ def yoga_poses
       "chest openers"
     ],
     "chakra" => "Throat Chakra",
-    "color" => "blue",
+    "color" => "dodgerblue",
     "tip" => "Beginners sometimes strain their neck in this pose. If you feel any discomfort in your neck or throat, either lower your chest slightly toward the floor, or put a thickly folded blanket under the back of your head.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/fishpose.jpg",
   },
@@ -613,8 +613,8 @@ def yoga_poses
       "seated",
       "yoga for strength"
     ],
-    "chakra" => "Solar Plexus Chakra",
-    "color" => "yellow",
+    "chakra" => "Solar Chakra",
+    "color" => "gold",
     "tip" => "You can practice a preparation for this pose periodically throughout your day without even leaving your chair. Sit on the front edge of a seat with your knees at right angles. Grab onto the sides of the seat with your hands and lean slightly forward. Firm your arms and lift your buttocks slightly off the seat, then raise your heels slightly off the floor (but not the balls of your feet). Let the heads of your thigh bones sink into the pull of gravity and push the top of your sternum forward and up.",
     "img_url" => "http://d3v7xustcq7358.cloudfront.net/wp-content/uploads/boatpose.jpg",
   },

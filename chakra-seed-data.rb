@@ -14,7 +14,7 @@ def chakras
         "Bloodstone"
       ],
     "bija_mantra" => "LAM",
-    "energy_body" => "Governs primal and survival needs, heredity, security, trust and your relationship with money, home, job. Deals with tasks related to the material and physical world. Ability to stand up for oneself.",
+    "energy_body" => "Governs primal and survival needs, heredity, security, trust and your relationship with money, home, job. Deals with tasks related to the material and physical world and the ability to stand up for oneself.",
     "physical_imbalance" => "Anemia, fatigue, obesity, constipation, sciatica, lumbar issues, eating disorders, frequent colds or cold hands and cold feet.",
     "healing_exercises" => [
         "Stomping your bare feet on the ground. The root chakra is all about feeling grounded.",
@@ -97,10 +97,10 @@ def chakras
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Orange-Chakra-300x300.jpg",
   },
   {
-    "chakra" => "Solar Plexus Chakra",
+    "chakra" => "Solar Chakra",
     "chakrasanskrit" => "Manipura = 'jewel in the city'",
     "location" => "between the sternum and the belly",
-    "color" => "yellow",
+    "color" => "gold",
     "element" => "Fire",
     "gem" => [
         "Sun stone",
@@ -109,7 +109,7 @@ def chakras
         "Gold Topaz",
       ],
     "bija_mantra" => "RAM",
-    "energy_body" => "Governs power accomplishments, will, ego projections, vital energies and self-worth. Balance of intellect. Ability to have self-control and humor.",
+    "energy_body" => "Governs power accomplishments, will, ego projections, vital energies and self-worth. Balance of intellect, and the ability to have self-control and humor.",
     "physical_imbalance" => "Ulcers, hypo/hyperglycemia, metabolism, digestion issues, nervousness, toxicity, colitis, poor memory.",
     "healing_exercises" => [
         "Taking classes",
@@ -192,7 +192,7 @@ def chakras
     "chakra" => "Throat Chakra",
     "chakrasanskrit" => "Vishudda = 'pure place'",
     "location" => "base of throat",
-    "color" => "blue",
+    "color" => "dodgerblue",
     "element" => "Ether",
     "gem" => [
         "Lapiz Lazuli",
@@ -239,8 +239,8 @@ def chakras
   {
     "chakra" => "Brow Chakra",
     "chakrasanskrit" => "Ajna = 'command'",
-    "location" => "center of forhead, above the eyes",
-    "color" => "indigo",
+    "location" => "center of forehead, above the eyes",
+    "color" => "mediumslateblue",
     "element" => "Light",
     "gem" => [
         "Amethyst",
@@ -249,7 +249,7 @@ def chakras
         "Tanzanite",
       ],
     "bija_mantra" => "OM",
-    "energy_body" => "Governs intuition, action of ideas, insight, mind development thought, inner and outer sight, visions, dreams. Releasing hidden and repressed negative thoughts.",
+    "energy_body" => "Governs intuition, action of ideas, insight, mind development, thought, inner and outer sight, visions, dreams. Releasing of hidden and repressed negative thoughts.",
     "physical_imbalance" => "Migranes, eyesight/vision, brain tumors, strokes, seizures, learning disabilities",
     "healing_exercises" => [
         "Star gazing",
@@ -283,7 +283,7 @@ def chakras
     "chakra" => "Crown Chakra",
     "chakrasanskrit" => "Sahasrara = 'thousand petaled lotus'",
     "location" => "top of head",
-    "color" => "luminous bright white light",
+    "color" => "darkmagenta",
     "element" => "Beyond Time and Form = Thought",
     "gem" => [
         "Garnet",
@@ -292,7 +292,7 @@ def chakras
       ],
     "bija_mantra" => "Silent AUM",
     "energy_body" => "Governs connection to cosmic consciousness, spiritual wisdom, aspirations and knowledge of truth. Dedication to the divine consciousness and trusting the universe. Integrating one's consciousness and subconsciousness into the superconsciousness.",
-    "physical_imbalance" => "Headaches, photosensitivity, epilepsy.",
+    "physical_imbalance" => "Headaches, photosensitivity, epilepsy",
     "healing_exercises" => [
         "Focusing on dreams",
         "Writing down one's visions and inventions",

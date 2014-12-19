@@ -1,5 +1,5 @@
 /*body {
-	background-color: purple;
+  background-color: purple;
 }*/
 
 /*body {
@@ -21,19 +21,20 @@
 
 .title {
   text-align: center;
+  padding: 10px;
 }
 
 .pose {
-	text-align: center;
-	border: 3px solid black;
+  text-align: center;
+  border: 3px solid black;
   margin: 5px;
 }
 
 .thepose {
-	text-align: center;
-	font-size: 36px;
-	font-family: helvetica;
-	border: 5px solid black;
+  text-align: center;
+  font-size: 36px;
+  font-family: helvetica;
+  border: 5px solid black;
 }
 
 .thepose .chakra-circle {
@@ -43,53 +44,71 @@
 }
 
 .sanskrit {
-	text-align: center;
+  text-align: center;
+  padding: 10px;
 }
 
 #category-toggle {
-	text-align: center;
-	border: .25em solid black;
-	background-color: white;
-	height: 65px;
-	width: 275px;
-	line-height: -20px;
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;
 }
 
 #tip-toggle {
-	text-align: center;
-	border: .25em solid black;
-	background-color: white;
-	height: 65px;
-	width: 275px;
-	line-height: -20px;
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;
 }
 
 #benefits-toggle {
-	text-align: center;
-	border: .25em solid black;
-	background-color: white;
-	height: 65px;
-	width: 275px;
-	line-height: -20px;
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;
 }
 
 #description-toggle {
-	text-align: center;
-	border: .25em solid black;
-	background-color: white;
-	height: 65px;
-	width: 275px;
-	line-height: -20px;
+  text-align: center;
+  border: .25em solid black;
+  background-color: white;
+  height: 65px;
+  width: 275px;
+  line-height: -20px;
 }
 
 #template-div {
-	float: right;
-	margin-right: 65px;
+  float: right;
+  margin-right: 65px;
+}
+
+.chakra-details {
+  margin-left: 50px;
+  /* margin-right: 650px; */
+  width: 500px;
+  display: inline-block;
+  float: left;
+}
+
+.chakra-pic {
+  max-width: 150px;
+  max-height: 150px;
+  float: right;
+  display: auto;
+  margin: auto;
+  margin-right: 70px;
 }
 
 .thecategory {
-	width: 275px;
-	right: 50px;
+  width: 275px;
+  right: 50px;
 }
 
 .thetip {
@@ -98,13 +117,13 @@
 }
 
 .thedescription {
-	width: 275px;
-	right: 50px;
+  width: 275px;
+  right: 50px;
 }
 
 .thebenefits {
-	width: 275px;
-	right: 50px;
+  width: 275px;
+  right: 50px;
 }
 
 .small-img {
@@ -119,7 +138,9 @@
 
 .chakra-div {
   display: inline-block;
-  right: 50px;
+  float: right;
+  margin-right: 119px;
+  margin-top: 0px;
 }
 
 #gem-toggle {
@@ -178,8 +199,8 @@
   right: 50px;
 }
 /*#pic-div {
-	float: left;
-	margin-left: 65px;
+  float: left;
+  margin-left: 65px;
 }*/
 
 .red {
@@ -190,24 +211,24 @@
   background-color: orange; 
 }
 
-.yellow {
-  background-color: yellow; 
+.gold {
+  background-color: gold; 
 }
 
 .green {
   background-color: green; 
 }
 
-.blue {
-  background-color: blue; 
+.dodgerblue {
+  background-color: dodgerblue; 
 }
 
-.indigo {
-  background-color: purple; 
+.mediumslateblue {
+  background-color: mediumslateblue; 
 }
 
-.violet {
-  background-color: pink; 
+.darkmagenta {
+  background-color: darkmagenta; 
 }
 
 /*.location{

@@ -36,7 +36,7 @@ var PoseRouter = Backbone.Router.extend({
 			var chakraView = new ChakraView({model: chakra});
 			$('.pose-container').empty();
 			$('chakra-container').html(chakraView.render().$el);
-			$('body').on('click', '.chakra-header', function(e){
+			$('body').on('click', '.chakra-header', function(){
 				$(this).next().slideToggle();
 			});
 		});

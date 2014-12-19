@@ -29,8 +29,8 @@
 	<script type="text/template" id="chakra-list-template">
   	<%% collection.each(function(chakra){  %>
     	<div class="chakra <%%= chakra.get("chakra") %>">
-    	<img class="smaller-img" src="<%%= chakra.get("image_url")%>"> <br>
-	    <a href="#chakra/<%%= encodeURIComponent(chakra.get("chakra")) %>">
+    	<a href="#chakra/<%%= encodeURIComponent(chakra.get("chakra")) %>">
+    	<img class="smaller-img" src="<%%= chakra.get("image_url")%>"><br>
 	    	<%%= chakra.get('chakra') %>
 	  	</a>
   		</div>
@@ -57,6 +57,7 @@
 	 			<%% } %>
 		 	</ul>
 	 	</div>
+	 </div>
 
 	 	<div id='template-div'>
 	 		
@@ -102,19 +103,21 @@
 
 
 	<script id='chakra-template' type="template">
+
+		<img class='chakra-pic' src='<%%= image_url %>'> 
 	 
 	 	<div class='chakra-details'>
-	 		<h1 style="color:<%%= color %>"><%%= chakra %></h1>
-	 		<h2><%%= chakrasanskrit %></h2> 
-	 		<h3>Located:<%%= " " + location %></h3>
-	 		<h3>Element:<%%= " " + element %></h3>
-	 		<h3>Bija Mantra:<%%= " " + bija_mantra %></h3>
-	 		<h3>Energy Body:<%%= " " + energy_body %></h3>
-	 		<h3>Physical Imbalance:<%%= " " + physical_imbalance %></h3>
+	 		<h2 style="color:<%%= color %>"><%%= chakra + " ... "%><%%= expression %></h2>
+	 		<h3 style="font-size: 20px"><%%= chakrasanskrit %></h3> 
+	 		<h5><b>Located:</b><i><%%= " " + location %></i></h5>
+	 		<h5><b>Element:</b><i><%%= " " + element %></i></h5>
+	 		<h5><b>Bija Mantra:</b><i><%%= " " + bija_mantra %></i></h5>
+	 		<h5><b>Energy Body:</b><i><%%= " " + energy_body %></i></h5>
+	 		<h5><b>Physical Imbalance:</b><i><%%= " " + physical_imbalance %></i></h5>
 
 	 	</div>
 
-		<img src='<%%= image_url %>'> 
+
 	 	
 	 	<div class='chakra-div'>
 	 		
