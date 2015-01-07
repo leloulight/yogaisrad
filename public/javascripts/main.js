@@ -9,6 +9,7 @@ var PoseRouter = Backbone.Router.extend({
 		
 		chakraCollection.fetch().done(function(){
 			var chakraListView = new ChakraListView({ collection: chakraCollection });
+			$('.chakra-page-container').empty();
 			$('.chakra-container').html(chakraListView.render().$el);
 		});
 
@@ -61,3 +62,13 @@ $(function(){
 	
 
 });
+
+
+// Some really real shit right hurr, put this into chakra route
+var tempArray = []
+var currentChakra = chakraName
+$.each(poseCollection.models, function(){
+	if(this.attributes.chakra === currentChakra){
+		tempArray.push(this.attributes.img_url);
+	}
+})

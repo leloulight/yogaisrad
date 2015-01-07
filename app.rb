@@ -15,6 +15,7 @@ get '/api/poses' do
 end
 
 get '/api/chakras' do
+  puts params
   content_type :json
   CHAKRAS.to_json
 end
