@@ -3,7 +3,7 @@ console.log("ChakraView successful...");
 var ChakraView = Backbone.View.extend({
 
 	initialize: function(){
-		$('.chakra-container').html(this.render().$el)
+		$('.chakra-page-container').html(this.render().$el)
 	},
 
   template: _.template($('#chakra-template').html()),

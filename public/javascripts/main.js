@@ -22,11 +22,11 @@ var PoseRouter = Backbone.Router.extend({
 	pose: function(name){
 		var pose = poseCollection.where({name: name})[0];
 		var poseView = new PoseView({ model: pose });
+		$('.chakra-page-container').empty();
 		$('.pose-container').html(poseView.render().$el);
 
-		$('#category-toggle').off();
-		$('#category-toggle').hover(function(){
-			// DO THIS FOR ALL THE BUTTONS, AND THEN DO IT FOR ALL THE BUTTONS ON THE CHAKRA PAGE!!!
+		$('.header').off();
+		$('.header').hover(function(){
 			$(this).next().slideToggle();
 		});
 	},
@@ -37,9 +37,9 @@ var PoseRouter = Backbone.Router.extend({
 			var chakra = chakraCollection.where({chakra: chakraName})[0];
 			var chakraView = new ChakraView({model: chakra});
 			$('.pose-container').empty();
-			$('chakra-container').html(chakraView.render().$el);
-			$('body').off();
-			$('body').on('click', '.chakra-header', function(){
+			$('.chakra-page-container').html(chakraView.render().$el);
+			$('.chakra-header').off();
+			$('.chakra-header').hover(function(){
 				$(this).next().slideToggle();
 			});
 		});
