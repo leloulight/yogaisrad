@@ -13,9 +13,9 @@
   	<%% } %>
   	<td>
     	<div class="pose <%%= pose.get("name") %>">
-    	<img class="small-img" src="<%%= pose.get("img_url")%>">
 	    <a href="#pose/<%%= encodeURIComponent(pose.get("name")) %>">
 	    	<%%= pose.get('name') %>
+	    <img class="small-img" src="<%%= pose.get("img_url")%>">
 	  	</a>
   		</div>
   	</td>
@@ -104,10 +104,14 @@
 
 	<script id='chakra-template' type="template">
 
-		<img class='chakra-pic' src='<%%= image_url %>'> 
+
+	 	<div class='thechakra'>
+	 		<h2 style="color:<%%= color %>"><%%= chakra + " ... "%><%%= expression %></h2>
+	 	</div>
+
 	 
 	 	<div class='chakra-details'>
-	 		<h2 style="color:<%%= color %>"><%%= chakra + " ... "%><%%= expression %></h2>
+	 	
 	 		<h3 style="font-size: 20px"><%%= chakrasanskrit %></h3> 
 	 		<h5><b>Located:</b><i><%%= " " + location %></i></h5>
 	 		<h5><b>Element:</b><i><%%= " " + element %></i></h5>
@@ -117,6 +121,7 @@
 
 	 	</div>
 
+		<img class='chakra-pic' src='<%%= image_url %>'> 
 
 	 	
 	 	<div class='chakra-div'>

@@ -48,7 +48,7 @@ def chakras
         "Cayenne pepper",
         "Tomatoes",
       ],
-    "expression" => "Will to live",
+    "expression" => "Will to Live",
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Red-Chakra-300x300.jpg",
   },
   {
@@ -93,7 +93,7 @@ def chakras
         "Mandarins",
         "Radishes",
       ],
-    "expression" => "Will to feel",
+    "expression" => "Will to Feel",
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Orange-Chakra-300x300.jpg",
   },
   {
@@ -139,7 +139,7 @@ def chakras
         "Yellow Peppers",
         "Grapefruit",
       ],
-    "expression" => "Will to think",
+    "expression" => "Will to Think",
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Yellow-Chakra-300x300.jpg",
   },
   {
@@ -185,7 +185,7 @@ def chakras
         "Peas",
         "Green Squash",
       ],
-    "expression" => "Will to love",
+    "expression" => "Will to Love",
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Green-Chakra-300x300.jpg",
   },
   {
@@ -233,7 +233,7 @@ def chakras
         "Asparagus",
         "Potatoes",
       ],
-    "expression" => "Will to express",
+    "expression" => "Will to Express",
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Blue-Chakra-300x300.jpg",
   },
   {
@@ -276,7 +276,7 @@ def chakras
         "Grapes",
         "Plums",
       ],
-    "expression" => "Will to see",
+    "expression" => "Will to See",
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Indigo-Chakra-360x300.jpg",
   },
   {
@@ -319,7 +319,7 @@ def chakras
         "Broccoli",
         "Grapes",
       ],
-    "expression" => "Will to be/aspire",
+    "expression" => "Will to Be/Aspire",
     "image_url" => "http://reikirays.com/wp-content/uploads/2012/11/Violet-Chakra-300x300-1.jpg",
   },
 ]

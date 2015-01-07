@@ -34,7 +34,17 @@
   text-align: center;
   font-size: 36px;
   font-family: helvetica;
-  border: 5px solid black;
+  border: 8px solid black;
+}
+
+.thechakra {
+  text-align: center;
+  font-size: 36px;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: -2px;
+  border: 8px solid black;
+  margin-bottom: 10px;
 }
 
 .thepose .chakra-circle {
@@ -100,7 +110,6 @@
 .chakra-pic {
   max-width: 150px;
   max-height: 150px;
-  float: right;
   display: auto;
   margin: auto;
   margin-right: 70px;
