@@ -27,7 +27,7 @@ var PoseRouter = Backbone.Router.extend({
 		$('.pose-container').html(poseView.render().$el);
 
 		$('.header').off();
-		$('.header').hover(function(){
+		$('.header').click(function(){
 			$(this).next().slideToggle();
 		});
 	},
@@ -40,7 +40,7 @@ var PoseRouter = Backbone.Router.extend({
 			$('.pose-container').empty();
 			$('.chakra-page-container').html(chakraView.render().$el);
 			$('.chakra-header').off();
-			$('.chakra-header').hover(function(){
+			$('.chakra-header').click(function(){
 				$(this).next().slideToggle();
 			});
 		});
